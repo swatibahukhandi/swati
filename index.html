@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf6e4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #333;
+        }
+
+        /* General Styling */
+        .container {
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        .hero-section {
+            background-color: #f5d6d6;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-section h1 {
+            font-size: 1.5em;
+            color: #b71c1c;
+        }
+
+        .hero-section p {
+            font-size: 1em;
+            color: #333;
+        }
+
+        .hero-section .dating-timer {
+            font-size: 1.2em;
+            color: #b71c1c;
+        }
+
+        .about-section {
+            background-color: #fff;
+            width: 100%;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2 {
+            font-size: 1.4em;
+            color: #b71c1c;
+        }
+
+        .about-section p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #d32f2f;
+            padding: 20px;
+            margin-top: 30px;
+            color: white;
+            font-size: 1.1em;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .footer span {
+            font-size: 1em;
+        }
+
+        /* Timer */
+        .footer .age-timer {
+            font-size: 1.2em;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 600px) {
+            .hero-section h1 {
+                font-size: 1.3em;
+            }
+
+            .hero-section p, .footer span, .dating-timer {
+                font-size: 1em;
+            }
+
+            .about-section h2 {
+                font-size: 1.2em;
+            }
+
+            .about-section p {
+                font-size: 0.9em;
+            }
+
+            .footer .age-timer {
+                font-size: 1em;
+            }
+
+            .footer span {
+                font-size: 0.95em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <h1>With all my love, forever and always. 💖</h1>
+            <p class="dating-timer" id="dating-timer">We've been together for: 0 years, 0 months, 0 days, 0 hours, 0 mins, 0 secs</p>
+        </div>
+
+        <!-- About You Section -->
+        <div class="about-section">
+            <h2>About You</h2>
+            <p>You are the most wonderful person in my life...</p>
+            <!-- Add more personalized content here -->
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>With all my love, forever and always. 💖</p>
+            <span class="age-timer" id="age-timer">21 years, 1 month, 2 days, 20 minutes, 22 seconds old</span>
+        </div>
+    </div>
+
+    <script>
+        // Date of birth for age timer
+        const birthDate = new Date('2002-07-15T00:00:00');
+
+        // Start date of dating relationship
+        const startDate = new Date('2022-05-05T00:00:00');
+
+        function calculateDuration(date1) {
+            const now = new Date();
+            let diff = now - date1;
+            const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
+            diff -= years * 1000 * 60 * 60 * 24 * 365.25;
+            const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30.44));
+            diff -= months * 1000 * 60 * 60 * 24 * 30.44;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            diff -= days * 1000 * 60 * 60 * 24;
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            diff -= hours * 1000 * 60 * 60;
+            const minutes = Math.floor(diff / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            return { years, months, days, hours, minutes, seconds };
+        }
+
+        function updateAgeTimer() {
+            const age = calculateDuration(birthDate);
+            document.getElementById('age-timer').innerText = `${age.years} years, ${age.months} months, ${age.days} days, ${age.hours} hours, ${age.minutes} mins, ${age.seconds} secs old`;
+        }
+
+        function updateDatingTimer() {
+            const dating = calculateDuration(startDate);
+            document.getElementById('dating-timer').innerText = `We've been together for: ${dating.years} years, ${dating.months} months, ${dating.days} days, ${dating.hours} hours, ${dating.minutes} mins, ${dating.seconds} secs`;
+        }
+
+        setInterval(updateAgeTimer, 1000);
+        setInterval(updateDatingTimer, 1000);
+    </script>
+</body>
+</html>
