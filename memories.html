@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #ff6b6b;
+            margin: 40px 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Photo Grid */
+        .memory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .memory-item {
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .memory-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .memory-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .memory-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .memory-text {
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .memory-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Memories</h1>
+
+    <div class="container">
+        <!-- Memory 1 -->
+        <div class="memory-grid">
+            <div class="memory-item">
+                <img src="p6.jpg" alt="Memory 1"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Ye sabse pehla phool september 2023 me jo maine aapke liye toda tha aapne challenge kiya tha ki phool leke aao fir iske baad aap bhi phool leke aayi thi chatt se jo aapne mere bday wale cardboard pe chipkaya tha.</p>
+                </div>
+            </div>
+
+            <!-- Memory 2 -->
+            <div class="memory-item">
+                <img src="p7.jpg" alt="Memory 2"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Ye maine aapke liye kishti banayi thi october me jo bola tha ki sambhal ke rakhunga and aapko dunga.</p>
+                </div>
+            </div>
+
+            <!-- Memory 3 -->
+            <div class="memory-item">
+                <img src="p5.jpg" alt="Memory 3"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Ye aapne merko chocolate di thi uska wrapper rakha hua although pata ni kyu par fainkne ka man na kiya.</p>
+                </div>
+            </div>
+
+ <!-- Memory 4 -->
+            <div class="memory-item">
+                <img src="p8.jpg" alt="Memory 3"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Isme toh kaafi chiz hai, swati haryanvi hai ye aapke pen se likha tha pehla word maine jo chocolate ke saath pen diya tha, ye yellow wala phool 11 may ko laya tha relationship se 1 din pehle, bade wala laal phool last year college se laya tha, ye 4 chotte phool 31 january ko laya tha aapke liye, patta bhi laya tha.</p>
+                </div>
+            </div>
+
+ <!-- Memory 5 -->
+            <div class="memory-item">
+                <img src="p1.jpg" alt="Memory 3"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Ye pehla pen jo aapne diya, maine isko use karke jitne bhi paper diye sab badiya gaye, merko jis bhi paper me lagta tha ache se na padha toh ye pen lejata tha iske saath acha hi jata tha mera paper, mera lucky pen.</p>
+                </div>
+            </div>
+
+ <!-- Memory 6 -->
+            <div class="memory-item">
+                <img src="p2.jpg" alt="Memory 3"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Ye dusra pen jo aapne diya kyunki pehle wala khatam hogaya tha isko sayad main aaj use karunga apke bday ke din kyunki aaj mera exam.</p>
+                </div>
+            </div>
+
+ <!-- Memory 7 -->
+            <div class="memory-item">
+                <img src="p3.jpg" alt="Memory 3"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Ye Pens ka dibba toh recent jo aapne diya, kaafi ache lage merko ye pen inko regularly use karunga and vo mehange wale ko exam me jo exam me luck ki jarurat ho thodi.</p>
+                </div>
+            </div>
+
+ <!-- Memory 8 -->
+            <div class="memory-item">
+                <img src="p4.jpg" alt="Memory 3"> <!-- Replace with your image path -->
+                <div class="memory-text">
+                    <p>Wewwww ye keychain, merko kitne time se chahiye tha aapse and milgaya finally and kaafi achaa dikhta, pasand aaya merko.</p>
+                </div>
+            </div>
+
+            <!-- Add more memories as needed -->
+        </div>
+    </div>
+
+</body>
+</html>
