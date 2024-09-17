@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Letters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #ff6b6b;
+            margin: 40px 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Accordion/Letters List */
+        .accordion {
+            background-color: #fff;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.5rem;
+            font-weight: 600;
+            transition: 0.4s;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .accordion.active, .accordion:hover {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .panel p {
+            margin: 20px 0;
+        }
+
+        /* Button to Add New Letter */
+        .add-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 15px;
+            margin: 40px auto;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .add-button:hover {
+            background-color: #e84393;
+            transform: translateY(-5px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .accordion {
+                font-size: 1.2rem;
+            }
+
+            .panel {
+                font-size: 1rem;
+            }
+
+            .add-button {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Your Letters</h1>
+
+    <div class="container">
+
+        <!-- Letter 1 -->
+        <button class="accordion">Letter 1:Ye pehla letter</button>
+        <div class="panel">
+            <p>Hello cutieeee
+Maine socha main aapko letter likhu par letter me exactly kya likhu vo pata nahi toh bas kuch bhi aise hi. Socha toh maine ye letter likhne ka new year se pehle hi thaa bas fir baad me hi implement. Ye letter aapko saturday ko milega isme lagbhag pichle 1 hafte ka hi alag alag time ke hisaab se likha hoga, ye week wapas se sab normal hogaya new year ke baad bas ab dobara mat change karna ise ye final time tha, bohot din hogaye maine aapki taarif na kari toh 1 baat batao aap itni cutieeee kaise ho aur aap jo ye khud ko buri buri bolti rehti vo toh bilkul nahi ho aap matlab kaafi achi ho dil se aur ye chiz toh main september se hi bolra jab aap bolti thi ki aapko abhi aisa lagra baad me pata chalega and ab toh kaafi baad hogaya matlab kaafi ladayiyan etc bhi and kaafi jaan bhi Gaya par abhi bhi same hi bolunga ki aap sahi me kaafi achi ho, kaafi sochti ho sab ka and khud ko hi bura bolti rehti aur har time jo shutup shutup ya chupp/huppp ya gndaa karti rehti usme bhi itni cute lagtii bilkul tamatar par cute wala. Aapse pehle toh padhai na horahi thi ab sayad thodi hone lag gayi par aap thoda jyada stress leti ab main T….. bolunga toh aap chaante maarogi par email pe chaante maarna thoda mushkil hoga na aur ye bhi nahi batayogi ki kab kahan 👉🏻👈🏻 kitne chaante maarogi….. aapki wajah se maine bhi padhna start kardiya verna normal days me toh main kabhi na padhta tha bas aise hi timepass chahe college ya school par ab non exam days me bhi padhne laga, aap bhi padh logi and hojayenge badiya exams bas thoda stress kam liya karo nahi hi horahi aap fail kabhi bhi 100%. Ab 1-2 din se dobara kam kardiya aapne padhna, dopahar aur shaam me phone side karke Padh liya karoo khair in the end ho hi jayega exams se pehle apne aap ho hi jaata.
+Aaj jo aapne dress li thi upar ki vo bhi suit achii lagrahi thi aap pe and colour bhi kaafi badiya baaki sayad aapko lagraha hogaa ki main vaisee man se bolraha par noo achi thi ye vaise already bol chuka par fir bhi isme alag se. Aur batao aaj aapne bataya ni ki kya khaaya and kaisii ho, vaise toh main subah ya dopahar ya shaam ko bina bataye dene wala tha par ab aapko yaad hi aagaya tohh sayad abhi dena padega kuch time mee, niceee hai kyaa aise mera plan kharaaab karna ki maine sochaa bina bataye mail kardunga aap kabhi mail dekhogi tohh milega aapko. Delete mat kardenaaaa isko.
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+1/infinity</p>
+        </div>
+
+        <!-- Letter 2 -->
+        <button class="accordion">Letter 2: Ye dusra letter</button>
+        <div class="panel">
+            <p>Hello cutieeee
+
+Good morning/afternoon/evening/night…….Ye raha second letter, pichle hafte ka letter tohh aapko pata chal gaya tha toh jaldi leliyaa par isbaar main bata hi nahi rahaa koi second letter bhi hai. Ye letter bhi aapko saturday ko milega bina bataye. Is hafte main chandigarh aagaya tha thanks to the tickets done by you, ab tak toh vapis karnal bhi aagaya hounga, ye hafte toh kaafi thand thi par sayad ye last hafta tha itni jyada thand ka and ab toh kam hoti rahegi. Sunday/Monday ko humne 9:30hr+ call ki wewwww, ye hafte aap 2 baari mere sapne me aayi abtak, dusri baar ka sayad aapko dhyaan ni hoga par chhota sa cameo vo school wale sapne me ki paise aapke paas rakhe, aapki is hafte ki tareef, aapne app delete maardiya tha dono baar fir dono baar vapis download karke ticket book ki, dusri wali ticket abhi tak kari nahi par kar hi dogi mere khayaal se🥺, although ab sayad firse delete maar diya hoga par tamatar, kitna cute naam hai na ye vaise tamatar laal laal, T se 1 aur word start hota vaise 7 letters kaa T.p..r, 7 nahi 6 letters, kitni cutieeee ho vaise aap.
+filhal toh main abhi train me baitha hu aur range nahi aarahi idhar toh soch raha hu ab kya likhu matlab kya kyq likh sakte, aap batao aap kaisi hoo and khaana kha liya(jis time padh rahi ho usi time ke hisaab se maan lena).
+Aaj ka din toh kaafi hectic tha vaise subah 8 baje se raat ke 10 baje tak proper thandd puraaa din, abhi tak paer jame se pade thand se vaise sayad aapka bhi aaj ka din kaafi hectic tha walk ya running etc kari aur itni tez neend kii 12:15 hi soo gayi Prrrrrr koi naa hai aapko permission jab marzi soo jao ab bas subah 12 baje mat uthna raat ke 12 baje sokarrrrr, vaise uth bhi sakti ho kyunki main bhi sayad 9-11 baje ke bich hi uthunga bas ab sone hi jarhaa thaa 12:45 tak. Good morning cutieee bas aane wala hoga aapke paas ye letter thodi der me par aap kab check karogi yaa sayad main hi bataa duu and aapnee last wala letter delete tohh ni maaraa naaa, iskoo bhi mat maarna deletee tamatar. Wewww aapne app delete na kiya tha train wala merko laga kardiya hoga.
+
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+2/Infinity</p>
+        </div>
+
+
+		<!-- Letter 3 -->
+        <button class="accordion">Letter 3: Title of Letter 3</button>
+        <div class="panel">
+            <p>Good morning/afternoon/night, is letter ke baare me sayad aapko idea ho since baaki 2 letters bhi saturday ko tohh ye bhi saturday ko hi par vaise aapne abhi tak pichla letter read ni kiya kya jisko bheje hue almost 1 din hogaya aur maine raat ko bata bhi diyaa tha fir bhi, lagta hai dobara batana padega, khair vo toh aapko tab hi pata chal gaya tha aur merko laga aapne dekha hi nahi ab tak. Vaise abhi toh bas 1 hafta bacha hai aapke exams ko fir homesickness ko ghar chodd ke mohali jaana padega exams me T*p karnee, ab tak toh aapki padhai me bhi aagayi hogi serious khair padhti toh aap pehle se hi thi chahe thoda thoda hi but kaafi hota utna, chhoddo isme padhai ka kya likhna. Pata nahi ye week aisa lagra jaise kaafi jaldi khatam and same time pe ye bhi lag raha ki kaafi lamba bhi, is hafte ki aapki tareef Cutieeeee toh ho hi aap baaki is hafte ke according toh aisi kuch cheez nahi hai tohh in general hi kardeta hu jaise ki aap kitni caring hoo, ye aapko pata nahi kaise lagta ki aap caring nahi ho ya care nahi karti par actual me aap kaafi jyada caring ho jaise ki care karna isko hi tohh kehte ki aapko farak pad raha and farak tohh padta hi hai aapko aisa thodi ki bilkul kuch farak na padta jaise main kabhi gussa ya naraz tohh itnee saare msg and calls aur faltu me sorry sorry jo ki nahi pasand but isi ko toh kehte hai care karna and farak padna. Iske alawa aur bhi cheezein jaise ki dil ki achi and understanding although kaafi dramee karke ki nahi ho understanding ya achi par hooo aur ye drame bhi cuteeee ya fir gusse me laal tamatar 🍅.
+Is baar bhi aap sayad aisa hi karogi ki letter padh ke batayogi nahi ki aagaya ya nahi dekha toh mujhe kuch sochna padega ki aapko pata na chale maine bhej diya, aapke sone ke baad bhejdunga tab notification hogi bhi toh subah neend me kya hi dhyaan jayega ki kaisi notification hai and aise hi clear kardogi and letter ka title bhi change karna padega hello cutieeee ki jagah kuch aisa jo kaafi common hai. Ye hafte me tohh lagbhag sab chutti hi thi pehle 22 january ko diwali fir 3 din college ab Republic Day ki chutti ab toh main vaapis karnal aa chuka aap batao aap kaisi hoo
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+3/infinity</p>
+        </div>
+
+<!-- Letter 4 -->
+        <button class="accordion">Letter 4: Ye 4th letter</button>
+        <div class="panel">
+            <p>helloo cutieeeeee, kyaa kar rahii
+aur batao kaisi ho filhal toh abhi aap chandigarh hongi and exam ka stress bhi hoga tabtak first exam toh ho chuka hoga and 1 rehta, man lag gaya homesickness ka yahan pe itne dino baad ghar se dur aayi 10 dino ke liye sayad.... busy hongi sayad aap par letter toh saayad yaad hoga hi ki saturday ko ya main bata hi dunga kya hide karna is baari. ye hafte toh mera birthday tha vaise toh aapka bhi par dusre wala, original plan toh mera wednesday ko paper dekar ghar jaane ka tha par vo toh na ho paaya toh ab 2 din aur rukna padega yahan khair ab hamara paper same day hogaya par jab aap apna exam dekar vaapis aayogi tab main exam dene jaraha hounga merko aisa feel aari ki jaisa aapka jayega vaisa hi mera jaayega toh since aapka exam pehle hai toh badiyaaa hi karke aana then mera bhi acha jaayega. is hafte tohh aapki kaafi taareefein banti hai unme se mostly toh main kar hi chukaa whatsapp pe par dobara bhi tohh kar sakta letter me tohh aap chupp ya noo bhi na bol sakti tohh joo aapne itna kuch likha matlab itna saara and mere letter se bhi bada, maine bilkul bhi kuch expect na kiya tha ki aap aise letter bhejogi, merko toh ye tha ki aapko subah jaldi uthnaa toh bas normal wish karke 1 baje tak soo jayogi aap par aap soyi bhi 2:30 bajeee vo tohh whatsapp pe khair uske baad sahi me toh 4 baje ke baad soyi aap facebook pe raashi thakur banke, and itni chaalaak ki merko confirm karwa diya ki aap nahi ho, starting me toh laga tha merko but baad me 4 baje tak toh noooo.... tohh jo aapne cuteeee saa letter bhejaa uskeee liyee again thankewwwww soo much vo sahi me matlab aaj tak ka best birthday wish, matlab jab aapne bataya ki letter hai and phool tab check kiya maine and jab padha toh padhne ke 2 min tak main bas ye soch raha tha ki ispe ab react kaise karu matlab ki words nahi the kya bolu itnaaaa achaaaa and jooo uske saath me handwrittennn notee bhi vo tohh letter se bhi jyaada acha usko toh main sambhal ke rakhna chahta tha but aapke paas hoga vo toh ya faink diya hoga, agar nahi fainka tohh fainkna mat next year dedenaaa april me specially jo usmee efforts like jo phool sambhal ke rakhaa and usme chipkaa rakha and jo drawing si kar rakhi aapne tamatar ki ya fir vo devil face..... letter ke andar jo aapne likha ki jab maine confess kiya tha pehli baar i like you tohh aapko vo bolne ke style se idea lag gaya tha ya fir aapko already thoda doubt tha kuch dinoo se ki main aapko like karne laga ya kuch..... thaa toh mera bhi koi plan nahi tab confess karne ka par ustime ke hisaab se tab vo sapna bata raha tha na main toh bas andar se kaafi jyaada feelings aagayi thi and roki na gayi aur socha ki bata hi deta toh maine bata diya par tab toh maine bhi bas confess krdiya tha ki merse feelings andar control na horahi thi, tha toh bohot jyada jaldi hi and tab bhi aisa lagta tha ki kaafi jyaada frank hai par ustime toh kuch bhi frank nahi the jitnaa uske baad hogaye next 2-3 months me ab toh limit hi reached frank ki tohh ye batana whatsapp pe ki aapko kaise idea laga confession ka ya kabse idea tha..... aur aapne letter me ye kyaa likha hai 2-2 baar ki aap achii nahi hoo matlab letter me aapko aise laga ki aap ye likhogi tohh main saamne se hupppp nahi bol paungaa aur likhaa bhi kaise ki "main boltii na ki tu jaanta ni tu mereko mtlbb jaanta h" matlab pataaa hai kii ab tohh jaantaaa hu fir bhi ironyyy cutieeee kahin ki..... aur jo likha aapne ki aap mere jaisi ni ho matlab ki aap nahi batati cheezein jaise main bata deta tohh vaise tohh main bhi kuch logo ko hi batata par aapko tohh lagbhag sab hi bata rakha for obvious reasons and aapke hisaab se aap utna nahi batati tohh aap bhi batati hoo matlab in comparioson aap baaki logo ko apni cheezein jitna batati unse toh halka jyaada hi bata deti ya share karti aap saayad merko tohh mere liye vohi bohot enough hai ki aap baakiyo ke compare me merko fir bhi bata deti apni cheezein and aiseee hi hameshaa batate rehnaa baakiyo se jyaada jaisee baakiyoo ko 1 cheez batati tohh merkoo maybee 3 batate rehna aurr ye jo aapko lagta kabhi kabhi ki aap mera use toh noooo man se nikaal do ye cheez aisaa bilkul ni hai main ye chiz aapko pehle bhi bata chukaa kaafi baar ki ye gandi cheez mat laaaya karo apne mind me, and joo maine bday se 1 din pehle ignoreee vo jaanbujhkar par achaa tohh merkoo bhi naa lagraha tha ignore karke parr aap palat jaa rahi thi june se and merko laga december pe bhi palat jaayogi agar pehle pata hota ki dec/april pe nahi paltogii tohh ignore hi naa karta....... soooo thankewwwww again iske liyeee specially jo chotti chotti details likhi thi aapne and average birthday ko special banane ke liye, bday ke din raat ko akele vaapis aate hue sochaa ki phool bhi hona chahiye 1 tohh kishti ke saath tohh vo raaste me pata nahi kiske ghar ke gamle se tod ke laaya tha and dikh tohh phool hi raha tha and hopefully phool hi ho vo.
+
+ye letter aapko saturday ke start me hi mil jaayega abki baar and tabhi bhejunga jab aap online ho verna kahin aapne apna phone charging pe laga rakha ho kahin side me aur aapki koi roommate aa kar notification se meri chitthi padh le.
+
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+4/infinity</p>
+        </div>
+
+<!-- Letter 5 -->
+        <button class="accordion">Letter 5: Ye 5th letter</button>
+        <div class="panel">
+            <p>helloo cutiee kaisi ho, ye letter bhi saturday ko hi milega aapko sayad...... jab aap ye letter padh rahi hongi tab tak toh sayad vapis aa chuki hongi delhi se exam dekar tohh kaise gaye aapke exams, first wala bekaar gaya sayad par pichlee letter me merko feeling aayi thi ki same hi jaayenge kind of jaisa mera physics ka and lagbhag vaisa hi hua mera bhi vaisa hi ki hojana chahiye pass but not sure kyunki numericals and aap bhi ho jayogi pass easily jyada stress mat lo.... dusra exam aapka acha gayaaa wewwww, maine bola tha isbaar vo toffee mat khaana pichli baar bhi us toffee se exam kharab, teesra exam toh sayad faltu ka hi hai jaisa aap bata rahi thi....aaj toh sayad teddy day hoga naa toh happy teddy day and kab lerahi aap teddy aurr ab toh homesickness vapis aagyi apne chuhe wale room me, hai abhi bhi chuhe ya chale gaye saare vaise chale ho gaye honge aapke ina unka bhi man kahan lagega. Is hafte ki aapki tareef, aapne delhi se jaane se pehle bola tha ki abse no call ya utni baat and hardly 20-40 min itna aap PG me ho par fir bhi daily call karleti and daily kaafi time nikaal leti chahe jyada busy ho ya padhna ho fir bhi almost 50-60% time nikaal liya jitna delhi me tha and is hafte mera kaari rude behaviour bhi tha matlab kuch time toh kaafi jyada considering ki aap busy ho and padhna hai par fir bhi jyada bura ni maana aapne and samajhne ki koshish kari aur fir aap bolti ho ki aap achi nahi ho kitni toh achi ho…..Baaki is hafte mera jo bhi behaviour rude ya ajeeb laga ho uske liye maafi vo merko bhi idea hai ki mera thoda normal behaviour na tha bas merko thik feel nahi hora tha kaafi reasone se and vo merko thodi anxiety feel hori thi thodi is wajaj se bhi ki pehle jaisi baat na hori and etc toh isliye aisa, kuch time me hojaunga vaapis pehle jaisa.Abhi toh main vaapis aaraha tha bus me aap bhi kal aarahi isse yaad aaya aap jo raat ko chat karte karte hi sojati na vo merko bada cute lagta jaise usdin aap typing karri thi pata ni kaise aadhe ghante tak sayad phone ke upar hi Sogayi thi par uthi bhi thi aap vo aapko yaad ni sayad par aapne uthke mute kiya and fir typing bandddd bhi kaafi gehri neend…..And 1 aur chiz thankewwww cutiee ki aapnee chocolate ke paise leliyee bas khaa lena kabhi usse kharid ke meri taraf se aur mera pen bhej denaa monday koo aur dono ko link mat karnaa ki vohi same paiso ka pen usme +- chal sakta vo paiso se chocolate meri taraf se aur aapki taraf se pen….Soo gayi aap 2 min pehlee hi 😞 prrrrr cutieeeeeee hoo tohh bura ni laga merko, Prrrrr chaloo tamatar 🍅 ye raha aapke liye letter and happy Valentine’s Day 🌹in advance Huppppp mat bolnaa ohh wait ye tohh bhul hi Gaya ki aapka jhukaam etc hogaya theek?
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+5/infinity
+</p>
+        </div>
+
+<!-- Letter 6 -->
+        <button class="accordion">Letter 6: Ye 6th letter</button>
+        <div class="panel">
+            <p>Helloo cutieee kaisi ho and ye raha konsa sayad 6th check karna padega but abhi toh subah ke 4 baj rahe, ye nahi bataunga konse din ke but 4 baj rahe filhal toh kuch hai nahi likhne ko bas start and ye toh valentines week tohh happy valentines isme bhi 🌹….. aapne aaj merko pen dena tha but aaya nahi vo pen and upar se ladayi bhi khair vo toh sort ho chuki as always…. Is hafte ki tareef karu tohh Thankss vo chiz clear karne ke liyee and anxiety thodi kam karne ke liye baaki ye week toh lagraha pehle se better jayega……. Pen and chocolate ke liye bhi tanksssss and vo maine toh socha tha pen se swati likhunga simple pehla word fir socha ki aapse puch lu ki kya likha and mansi ke alawa kuch bologi toh vohi likhunga prrrrr Prrrrr Prrrrr aapne tohh swati se bhi better kuch bata diya likhne ko Maine tohh vohi likha jo aapne bolaa ki main haryanvi hu matlab aapne likha toh aap hi hua naa and ab toh vohi likha gaya vo pen se first chiz and vo diary pe tohh main erase toh nahi karne wala since meri favourite diary and page bhi kaafi acha hai vo tohh ab tohh vohi likha gayaa baaki maine review nahi diya ki pen kaisa hai toh pen kaafi acha chaltaa smooth and premium feel hota and heavy sa bhi , is pen ko main exams me use karunga and maybe even upsc me bhi taaki exams ache jaaye and chocolate toh unexpected thi tohh uske liye bhi tanksss and aap bhi khaa lena bas vo chocolate chahe baad me….. ye hafte tohh vapis kaafi time baad pehle jaisi conversation Prrrrr sayad thoda aur jyada frank bhi, pehle lagta tha ki frank ki limit reach Prrrrr uspe bhi aur jyada frank pata nahi kaise par aise ajeeb ajeeb porn dekhnaa and fir vo precum wali baat vo main nahi batane wala thaa Kyunkii thoda ajeeb par vo bhi bata diya Baaki aap firsee jaagne lag gayi try kar karke Prrrrr fir bhi kaafi random sojaati chaloo koi ni and ticket karnee ke liye bhi binaa jyada request ke tanksss aur vo ni bhejaa aapne maine songs maange the par aapne bhej ke delete kardiye vo bhejdoo vapis and vo daily new photo me aapne dobara ni bhejii mera phone atak gaya thaa 😞 prrrr abhi tohh 6 din aur bhejni hai daily aur bataoo kaisi ho aap matlab jhukaam etc sab thik and bade dino se aapko tamatar ni bolaa tamatar tamatar tamatar 🍅 Loo good night cutie take care sweet dreams
+
+<p>Vishal ror to swatuuuuu</p>
+
+6/infinity</p>
+        </div>
+
+<!-- Letter 7 -->
+        <button class="accordion">Letter 7: Ye 7th letter</button>
+        <div class="panel">
+            <p>Helloo cutieeeeeee ye is hafte ka letter, Ye hafte toh aap vapis jayogi apne chuhe wala room khaali karke vapis chandigarh and abki baar toh kaafi lambe time ke liye 1 month se bhi jyada par koi baat ni udaas ni hote ab jana hai toh jaana hi hai par ye 1 mahine ki community posting toh kaafi jyada hai matlab 7-10 din kaafi rehta aisa bhi kya kaam survey type hi tohh karne hai par chalo exams ke compare me toh kaafi less stress hoga is baar aapko yahan utna nahi padhna andd raat ko ladko ke saath red hands mat khelnaaa bekaar chiz…..ye hafta kaafi mixed sa gaya tha matlab kaafi ladayiyan bhi hui par vo toh hoti rehti usko toh kya hi discuss karna is letter me isme toh positive cheezein hi jaisee ki jo maine monday ko aapko phone kiya tha toh uthaa liya and recharge kardiya and reply bhi kiya jo maine expect na kiya tha, haan ye expect kiya tha ki hmm bologi ya kuch bhi similar par ye nahi ki proper bologi and vaise ye taareef toh main already kar chuka par dobara se kardeta ki sahi me aapki awaaz kaafi jyada badiya hai matlab kaafi sweet siii, main toh nervous sa hogaya tha tab ki ye toh expect na kiya tha and ab aage kya bolu and aur baat karu par kya karu auto me……aur is hafte toh aapko daily pics bhejni thi and tanksss bhejne ke liye prrrrr aap tohh itni cutieeee tamatar ho aapko toh daily nahi har ghante pics bhejni chahiye faltu me hi face hide karke bhejti rehti thi kahan lekar jayogi itnaa cute sa face chhuppa kar, main kyaa aapke nazar laga dungaa…..aur tanksss wapis se 3-4 baje tak jaagne ke liye mere saath apni neend control karke baaki jo bhi ladayiyaan hui usme meri taraf se Jo bhi kuch bura laga aapko ya pasand nahi aaya specially vo 20 ko jab maine kaafi kuch suna diya tha aapko and nahi sunana chahiye tha aur aapko hurt bhi hua usse vo sab ke liye Sorryyyyyyyyyyyyy and dedi jabardasti kyunki letter me tohh aapke paas option bhi nahi hai ki aap isko vapis kardo yahan toh leni hi padegi <yahan pe vo chiddaane wale kutte ka sticker imagine karlo>, vo main usdin jyada hi rude hogaya tha jabki aap ne 1-1:5hr try kiya baat karne ki ya mood sahi karne ki Filhal toh main abhi bus me vapis aaraha tha sorry aapka msg ignore karne ke liye and abhi toh 2 baje ke baad se mera net hi nahi chal raha tanksssssss again phone uthane ke liye and proper reply ke liye again se same taaaareeef ki kitni cutieeeeee awaaaz aapki sharam nahi aati phone par regularly baat na karke par internet toh mera recharge ke baad bhi na chal raha sayad range ki problem hai chalooo khayal rakho apna
+
+<p>Vishal Ror to Swatuuuu</p>
+
+7/infinity</p>
+        </div>
+
+<!-- Letter 8 -->
+        <button class="accordion">Letter 8: Ye 8th letter</button>
+        <div class="panel">
+            <p>Heloooo cutieee kaisi hoo Ye raha is hafte ka letter….. ye hafta tohh abhi tak kaafi decent jaraha abhi toh filhal aap apne PG ho and mere abhi exams chalu hai tohh main 2 dino ke liye aaya hu chandigarh….. ye hafte toh aap chandigarh ho aurr batao kaisa lagraha chandigarh aake, main toh keh raha 15 din me hi vapis chali jao kya karogi yahan itna time rehkar, abhi toh maine aapko bata diya ki maine letter likhna start kiya toh pata chal gaya par abhi kya likhu abhi toh merko padhna hai kal ke exam ke liye, kal aapke wala pen lekar jaunga dekhne ki is pen se kaisi rahegi kismat sirf 1 din ke liye........aagaya exam dekar aapke pen se toh sahi me bahut achi kismat thi maine 15 marks ka expect kiya tha and karke 27 ka aagaya usme se 20-22 toh aa hi jayenge vaisee writting bhi kaafi decent aati aapke pen se ab next time isko kisi dhang ke exam me use karunga ya fir UPSC.......is hafte ki aapki tareef, ye hafte bhi aapne phone utha liya matlab uthaya toh nahi par khudse kiya uske baad, bataya ni aapne ki kahan lekar jayogi itni cutieeeee awaaz tamatar matlab sharam ni aati ki call par baat nahi karti...... aapko 1 idea deta hu next time main gussa hounga na toh normal manane ki jagah ya paise wapis bhejne ki jagah audio bhejdena usse jyaada jaldi maan jaunga main aur isse yaad aaya aapne jo mera name save kiya hai usko change toh kiya hoga ni abhi tak, sabse pehlaa kaam ye karo letter padhne ke baad ki jaa kar vo name change karo and kuch aur rakho uskoo Aurr tanksss aapne vo paise bhi rakh liye vapis 4k merko save karne me dikkat hoti usko….. baaki ladayi etc me kuch gusse me Boldu toh usko itna serious mat liya karo vo main mean nahi karta isliye yaad bhi na rakhti Prrrrrr vo bday ke liye jo maine socha tha maine toh vaise hi thoda hype karne ke liye boldiya tha prrrr aap toh kaafi jyada serious hogayi aur nikalwa liya merse pura plan jo maine socha tha and ruin kardiya 😡 achi baat hai kya ye karna, abhi toh march aagaya aapka vo survey shuru hone wala hoga mental health related jyaada thak mat jaana usme and dhyaan se chadha karoo tempo me qt Ye letter bhi aapko 12:05 pe milega soo jayogi vaise aap letter aane se pehle Prrrrr so sakti ho vaise toh chalooo good night cutie take care 😚 and name change karooo vo gndaaa name
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+8/infinity
+</p>
+        </div>
+
+<!-- Letter 9 -->
+        <button class="accordion">Letter 9: Ye 9th letter, ye wala thoda special tha</button>
+        <div class="panel">
+            <p>Hello cutieeeeeee ye 9th letter hoga sayad…..is letter me kyaa likhu aur batao kaisi ho, ye toh nahi pata ki aap isko saturday shuru hote hi padhogi ya fir saturday end hote hue ya fir middle me but is letter me kaafi chize kehni thi thoda sa cringe and ye letter sayad thoda love letter hoo… ohh sorry love letter ni like letter*……aapne jo bola tha na ki aap 1 din mera dil jarur todogi ya aap utne efforts nahi kar sakti jitne main tohh ispe thodaa….. efforts wali aap realise nahi karti ki aap bhi kaafi karti ho and acha lagta + sirf efforts nahi aap dil ki jo itni achi ho ya other taareefein jo aapki kari hai us wajah se main karta jo bhi main karta although mujhe samajh nahi aaya konse efforts prrrrr and ye mat sochna ki main jo bhi karra hu toh in reply aapse bhi kuch expectations hai meri aisa merko laga ki sayad aap aisa sochti toh no aisa kuch ni hai kasam se main jo karta vo isliye karta kyunki mera man karta aapke liye karne ka ya cheezein share karne ka ya jo bhi vo mera dil karta apni khushi ke liye karta merko acha lagta and aap jaisi ho vo more than enough ho aisa kuch ni hai ki aap ko jo laga ki aap aise efforts na kar sakti pata ni kya hi laga khair choddo…….ab aate hai dil wali baat pe ki aap mera 1 din dil todogi toh ache se padhna isko puraaa…… toh chalo realistic baat karte hai agar meri upsc hogayi toh theek and incase na hui toh mera dil tootega jo aapne bola toh ye chiz hum pehle bhi discuss na kar chuke ki merko 3 months me same attachment hojati jo merko 5 saal me hogi toh agar 3 month pe bhi dil tootta hai toh same feel hoga jo 5 saal baad tootne pe hoga aisa kuch ni hai ki time ke saath aur jyada hota jayega ye main thoda alag hu isliye but mera aisa hi hai aur isliye maine aapko bola tha ki agar aapko todna hi hai tohh 4 saal baad todna jab main acha stable job etc kyunki tab hearbreak handle karna kaafi aasaan hoga yaad karo ye wali conversation and dil ki thodi aur feelings share karu tohh start me jab merko attachment hone lagi thi and tha ki sayad like aa sakta tab main apne aapko piche kheech sakta tha but nahi kheecha maine because chances toh obviously the hi ki baad me dil toot sakta hai par maine isliye khud ko piche nahi kheecha ki aap puri worth ho dil tootne ke dard ko sehne ke liye matlab jo ache moments aapke saath unko compare karu future ke maybe us dard se jo dil tootne pe toh worth it hai dil tudwana bhi vo ache moments ke liye isliye maine khud ko piche nahi kheecha and aaj bhi same hi chiz hai ki aapke saath 1 achi conversation ke saath beeta hua din 10 heartbreaks ke liye worth it hai……… Aaj agar merko vapis chance mile time machine se peeche jaane ka september me ki main aapse like na karu and khud ko control karlu just because dil na toote toh main bina soche vapis same chiz choose karunga hamesha chahe 100 baar dil tut jaaye because heartbreak ka dard aaspaas bhi na aa sakta uske jo acha time ya moments…… heartbreaks me toh kya hi hai kuch months ka depression and dukh fir normal hojayega banda and ye mat sochna ki main like karta toh kuch bhi bakwas likhra no, ye same chiz maine ex ke saath bhi socha tha ki agar time machine mile toh main past me jakar khud ko rokunga kya toh uske me answer aaya tha ki haan roklunga because vo nahi laga tha us time bhi worth it but aap usse 100x achi insaan ho 
+
+
+
+<p>Vishal Ror to Swatuuuu</p>
+
+
+
+9/infinity
+
+</p>
+        </div>
+
+<!-- Letter 10 -->
+        <button class="accordion">Letter 10: ye 10th letter</button>
+        <div class="panel">
+            <p>Helloooo cutieeeeeee kaisi hoo, ye raha 10th letter, pichle hafte ka 9th letter toh aapne kaafi jaldi leliya prrrr vo toh kind of love letter tha Vo toh thodaa cringe and feelings etc khair choddo ye week tak toh aapke practicals hogaye honge complete Is hafte ki aapki tareeef, sabse pehle toh vohi din jisdin vo letter bheja tha tohh vo jo seduce etc ka vo toh pehle merko laga aapka man kar raha vaisa par vo aapne isliye kiya ki kaafi din hogaye the and mera man kar raha hoga prrrrr vaise kar toh raha tha par ye bhi tha ki abhi toh PG me ho and roommates etc bhi toh thoda ajeeb etc maybe and uskee next din aapne finally vo chocolate khareed ke khaa li tohh tankssss/thankewwww merko tha ki kha toh logi par ye tha ki maybe kaafi months baad  ya kabhi baad me par less than a month me hi khaa li tanksssss for accepting chocolate. Aurr aapne next day meri vo baat maani kaafi acha laga vo phool wapis karne wali vaise merko laga nahi tha ki aise instant maan jagogi prrrrrrrrr thankewwwwwww Uske next day jo ladayi etc hui uske liye sorryyyyyy kaafi irritating behaviour tha mera par vo mera pura din hi aisa jaraha tha sab kuch kharab kharab is baar ka letter tohh kaafi time baad aaraha and sayad aapko dhyaan bhi na ho ki aaj aapko letter aane wala hai thodii si aur tareeef kardeta aapki shivratri ke din ladayi hui thi naa tohh usdin maine aapki vo wali photo ki tareef na ki vo bahar dhoop me khadi thi saamne kaali chunni leke usme aap kaafi kaafi jyaada sundar lagrahi thi bilkul wifuuuuuu abhi tak vo image mind me haiii matlab abhi tak aapne 15-20 kuch photos bheji hai na total usme se kuch 3-4 aisi hoti jo permanent mind me reh jaati vo vaise wali photo thi ek toh sabse pehli jo aapne first ever bheji thi jisme dono haathon se selfie thi bed pe baith ke upar snapchat ke hearts and 1 vo lehange wali haath me phone pakad ke dono yaad hai vo tohh 1 tohh ribbon pe and 1 diwali pe vo best ever photo thi matlab fav maanloo prrrrr aap save karne ni dogi chaloo vo tohh aapki ichaa i have no problem.... fir 1 vo phone ka wallpaper puri beach wala aap ulta khadi thii, 1 vo aap kahin bahar walk karri thi mask pehan ke vo photo usme aapki eyesssssssss..... fir 1 vo jo aap kapde try karri thi 2 kapde liye the vo 1 backless type tha aapne bheji thi and ab 1 yeee, ye bhi vaiseeee hi save rahegi matlab kaafi achiiii thi iski vo tareeef reh gayi thi jo ye deserve karti aur thodiii karuuu kuch, ye wali tareef sayad aapko utni pasand na aaye prrrrr aapne jo mansi ko block karwaya and jo replies karwaye ki gf ko ni pasand etc etc vo merko kaafi acha lagaa ye chiz thodi explain karni mushkil but achaaaa lagaaa..... iske baad tohh aapka 1 week hi reh gaya idhar fir 15 din ke liye delhi wewwwwww chalooo good night ya good morning cutieeee take care😚
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+10/infinity</p>
+        </div>
+
+<!-- Letter 11 -->
+        <button class="accordion">Letter 11: Ye 11th letter</button>
+        <div class="panel">
+            <p>Hellooo cutieeeeeee ye 11th letter, 11 ka toh shagun bhi hota toh mere khayal se aaj aapko meri gf banjana chahiye muhurrat acha hai……Aaj tohh homesickness vapiss delhi aagayi hogi 16 din ke liye wewwwww and main bhi karnal 9 dino ke liye
+Ye hafta tohh kaafi mixed sa thaa specially abhi tak ke 5 din me se 3 din, specially sabse bekaar vo 2nd raat kuchh time ke liye Prrrrr usdin aap sayad jyada hi irriated thi aur fir maine bhi kardiya par fir aapne mana liya verna tabtak toh maine khud ko sambhal rakha tha par tabhi next day ka sochraha tha ki kaise jayega next day mtlb pehle se idea lag gaya tha ki energy bilkul 0 ya negative rehne wali hai next day toh fir handle tough Prrrrr main karleta manage vo health issues etc nahi hai mere uske baare me itna mat socho and restrict mat karo kuch bolne se koi health issues ni hai Prrrrr fir sab theek hogaya and aapne khud bhi accept karliya ki care karti hoo verna bolti rehti thi ki main kisi ki ni karti merko karni hi nahi aati blah blah blah jabki main bolta tha aapse jyada hai ni koi caring ladki jo maine dekhi
+
+Main bhi sayad thoda thoda aapke moodswings ya mood etc ko handle karleta sayad jaise jab vo sab raat ko tohh mere paas 2 options the ki ya toh ignore karke khud gussa hoke sojau ya reply na karu etc ya fir ache se baat karu kyunki aapka mood ajeeb sa jispe aapka utna control ni toh usko main handle ni karunga aur instead sojaunga toh kon karega handle
+
+And fir next day jab otp diya toh saari chats udgayi uska merko bohot bohot jyada hurt matlab kaafi par aapki sorry etc merko genuine lagi tab aise nahi ki drame ke liye sorry boldi matlab dikh raha tha ki aap genuinely bolrahi tab fir maine socha jo hogaya hogaya aapne realise kiya genuinely and bura lagra tha aapko apni galti ka toh ab merko dhang se baat karni chahiye chahe bura lagra ho instead of again ignoring although man ni tha and aap instagram derahi thi par vo nahi chahiye tha instead uski jagah kuch aur mangu tohh ye dedoo ki irritate jab bhi hoo tohh merko complaint kar sakti ya lad sakti merse ya jo bhi par irritate me ye baatein mat bolaa karoo ki end karna etc iske alawa sab cheezein bol loo snd ladooooo jitnaa mann main lad ke mana bhi lunga prrrrr end wali baat niiii and ab vo raat sach batau toh gandi baatein me utna vo ni aaya and aapko lagra tha ki aap mera mood thik karne ko kar rahi par thoda pretend (saara pretend nahi magar thoda) main bhi kar raha tha 😎 ki aapko lage matlab jo aap karna chah rahi thi mood thik etc vo successful Prrrrrr vo jabardasti chipakk kar kiss kaise karogiiiii 🥺 and next timee sareee kab badluuuu 🥰
+
+Ye letter kal denaa tha merkoo par ab aaj dungaa saturday night koo kal tabiyat kharabb thii and sochaa thoda aur likh duu tohh aagayi hogi aap gharpe tohh isme 1 chiz aur add karni thi 1 raat pehle ke liyee jab faltu sunaa diya tha uske liye maafii vo main kaafi gehri neend me thaa and irritated tha sab chizon pe par aap pe ni sunana chahiye tha vo instant regret huaa tha fir and sunane ka reason bilkul faltu tha chotti si cheez pe bas jealousy and insecurity/overthinking type mix hokee, par aapkoo lekar jealous na houu tohh kisko lekar houu🥺
+
+Chalooo cutieeeeeee like you 😚 take care
+
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+11/infinity</p>
+        </div>
+
+<!-- Letter 12 -->
+        <button class="accordion">Letter 12: Ye 12th letter</button>
+        <div class="panel">
+            <p>Hellooooo cutieeeeeee ye 12th letter aur iske saath letters ko 3 mahine pure hogaye wewwwww aur humkoo 7 months wewwwwwww…… ye haftaaa tohh kaafi achaa thaa matlab puraa hi achaa, hafte ki shuruaat hi voo stand wale challenge se ye vaise toh pichle letter ke bhejne se pehle hogaya tha par technically saturday ko huaa tohh uski jagah isme includee karnaa thaa prrrrrr prrrrrrr prrrrrrr matlab isse tohh sayad aur jyaada frank hogaye hum mtlb maine itna toh definitely expect na kiya tha haan thoda bahut kiyaa thaa par itnaa tohh nahii tohh isme toh kaafi jyada precum etc matlab itna toh sperm bhi na aata sayad jitna precum and stand bhi kaafi jyada lambe time tak and ye tohh already bata diya par aapke saath 👉🏻👈🏻 pyaar karne ka bhi kaafi jyada man kargaya thaa ki need typeeee and 100% wala hi pyaar aaraha tha aap pe  and kaafi vo bhi miss kiyaa ki agar aap gf hotiii tohh is typee ki conversation sayad kaafiii jyaada karteee tohhh sabse pehlaa miss tohh vohi ki gf honiii thiii Prrrrrr aap bantii nahiii aurr fir next dayy vo ejaculate wala challenge vo bhi kaafi jyada tha par utnaa nahi jitna stand wala prrrrrrr vo bhi thaa toh kaafi jyada hi and lamba bhi bohot although aap challenge haar gayi🫣 par aisaa tohh ni ki kuch bhi naa detaa tohh dediyaa and usmee bhi aur frankk ki zehar ki photo bhi bhej di pata nahi vo merko nahi bhejni thi par kyuuu bhejdi sayad yehi ki kyaa hi hojayega utnaa bhi kuch nahi par baad me sochaa tohh sayaddd voo ni bhejniii thi par ab tohh bhejdii, abb tohh kyaa reh gaya frankk koo bas saanp bhejna par vo toh nahi hi bhejunga nude me aajayega vo toh tohh meri taraf se sayad max frankk par pohonch chukee Anddd 1 aur chizz vo i love you wala confession vo main batanae ni wala tha par kasam dedi vo vaise kaafi din hogaye the sayad usko matlab kaafi din se like love me change ho chuka tha and sayad aapko idea bhi lag hi gaya hoga uska par main sayad khud maanna ni chah raha tha ki like ki jagah love kyunki love merko karna ni tha bina relationship ke par ab hogaya toh kya karu and first time hua isse pehle merko lagta tha ki ex ke time bhi thoda sa par no tab aisi koi feeling na thi jaisi abhi matlab iska toh 1% bhi na tha and kaafi example bhi iske ki jaise uske liye kabhi 4 line tak na likhi ab dekho etc aur bhi bohot cheezein hai but i love you 🍅♥️ and is baar aapne dono jo pic bheji dono pe hi kuch khaas react ni par kyunki pehle wale me mera mood off type tha and dusre me main gussa tha vo insta follow etc me vo merko pehle bhi chahiye tha par tab aapne accept ni fir main bhul gaya tha toh fir jab id di tab wapis yaad aaya par karli thi accept fir tankewwwwww par cutieeeeeeeee 🥰🌹 lag rahi thi dono hi pic me second wali pic me halki si jyaadaaaa
+Par meri 1 complaint thi aapseeee 😞 calll karooooo
+
+Chalooo goodnight cutie take care 😚 love you
+
+
+<p>Vishal Ror to Swatuuuuuu</p>
+
+12/infinity</p>
+        </div>
+
+<!-- Letter 13 -->
+        <button class="accordion">Letter 13: Ye 13th letter</button>
+        <div class="panel">
+            <p>Helloooooo cutieeeeeee ye 13th letter aapke liye abhi tohh main filhal bus se vapis aaraha, Ye hafta toh kaafi decent gaya matlab nice kind of kuch khaas bekaar ni sab decent, Is hafte ki aapki tareef karu tohhh vaise toh aapki sab cheezein hi achi ya cute hai par kuch unique me tohhh aapkaa dimple bada pyaaraa haiii ab ye mat puchna randomly ye dimple kahan se aagaya maybe aapko yaad ho kahan se 🫣, mind me vo image see, dimple ke saath kaafi kam pics bhejii hai aapnee aisaaa kyuuuu and dusri taariff is hafte specific tohhh aap dobara se late tak jaagne lag gayiii wewwwwww tankssss kyunkii main akela bore hojata and neend ni aati merkoo aur aap 11-12 baje sojaati thi par is hafteee nahiii wewwwwwww, Ab tohh aapnee ye semester ki padhai bhi chaalu kardi and kaafi jyada speed pe 2-3 din me 1 chapter karna thaa naa par 3-4 din me 3 chapter karliye ab next week ke letter tak 8 chapter Karlenaaa main bhejdunga 8 chapter ki videos fir 3 chapter aur reh jayenge, ab tohh merko bhi padhna hai ye sem me 45+ jo laane and fir next semester me top karna wewwwww fir aap meri gf ban jayogi Wewwwwww wewwwwww wewwwwww fir tohhh gulu gulu 👉🏻👈🏻, hai tohh kaafi mushkil task par try karne me kyaa jarahaa, Vaiseee ye hafte aap in general kaafi jyada cute lagrahi thi matlab aisa specific tohh kya batau par baaki hafto ke comparison me ye hafte bas kaafi cute harkatein thi aapki matlab kaafi jyada pyaar aara tha small small things pe, Ye letter vaise merko aaj raat ke 12 baje bhejna tha par tab mood ajeeb sa tha matlab energy ni thi sab lines etc ikathi karke 1 jagah and fir send karna toh fir baad me bhejne laga par tab aapkoo neenddd fir aaj bhej raha prrrrrrr kal ke liye tankewwwww kal jab mood thik ni tha par aapne baat karke sahi kardiya and matlab normal kardiya aur fir raat ko sote time bhi jab bolaaaa ki hugg karkee sonaa tohh maan gayi aap 🍅 cutieeeeeee tanksssss again.
+
+Chalooo cutieeeeeee good evening bye bye take care 😚 love youuuu
+
+<p>Vishal Ror to Swatuuuuuu</p>
+
+13/infinity</p>
+        </div>
+
+<!-- Letter 14 -->
+        <button class="accordion">Letter 14: Ye 14th letter, isko maine galti se 15 likh diya tha par ye 14 tha</button>
+        <div class="panel">
+            <p>Hellloooooo cutieeeeeee ye raha 15th letter i guess ye hafta tohh start me tohh thoda bekaar sa tha matlab bekaar toh nahi par start bekaar par fir end badiya kardeti thi aap jaisee ki saturday ko toh vaise hi mood bekaar thaa matlab energy typee nii and kisi se baat karne type ka man nii par aapne tab bhi manaa liyaaa and lagbhag sahi kardiyaaa sab ye tohh maine sayad pichle letter me bhi likhaa tha thoda saa aurr fir uske next day ladayi hogayi thi tohh mood kharab chotti si ladayi vaise tohh ki kis kisse baat karti aap matlab kitne male friends etc ya jo bhi par vahan bhi end badiyaa aapne firse sab sahi kardiyaa and Sahi clear kardiyaa type ab koi confusion type nahi is topic pe and banana bhi mat aur koi male frienddd jo bhi share ya baatein karni merse karo and jo bhi man merse aur kabhi bhai type ki need toh bhai bhi dila deta aapko vo bhai se karlena occasionally rakhi etc jo man….. fir next day huaa tha sabse jyada mood kharab tohh isse pehle mood kharab nahi par is wale me tha serious vo shaadi wala majaaak type ki thode months me aap usse baat karne lagogi and jo bhi sochaa tha upsc etc sab kuch kharaab and gaya etc….. isme toh kuch mana bhi ni sakta ya kuch bol sakta matlab kuch bhi ni…. Laga toh thaa merko start me ki majaak hai and maje lerahi type par soch raha tha ki kab bologi majaak hai par aap bol hi na rahi and fir net band karke bhi laga sayad ab bologi ab bologi par niiii fir 10 min baad laga ki maybe majaak ni hai tab bura laga and sorry rone ke liye aage se never definitely. And uske next day sayad maine aapko gussa dila diya tha ya mood kharab kardiya thaa raat me vo wali baat pe ki aapne vo sticker ladke ko bhej diya tha par main uspe already 99% sure tha ki aapne kisi ladki ko hi bheja kyunki verna aap upar name hide na karti and ye bhi ki classmate hai tohh vaise hi baat karri thi par sayad aap uspe gussa hogayi thi and next day bhi thoda sa mood kharab tha ya fir kaafi jyada hi neend aari thi and firrr vo challenge ki 5 immaturity wala vo kyaaa challengee thaa direct boldeti kii call chahiye sayad uspee hi maan jaata ya mana leti aap par challenge me immaturity dhundh rahi thii…….. vaise vo puri conversation hi including gussa etc challenge wali me aap bohot jyaada cutieeeeeee 🍅 lagrahi thi matlab kaafi jyaada isliye maan gaya, kaafi jyaada pyaar aaraha thaa aap pee vo conversation me…..
+Abhi toh aap vo prove karne me lagi ho ki little bhi pyaar na karti prrrr karlo reply agar reply karogi toh main ye thodi maanunga ki aap 100% pyaar karri ya relationship kuch aisa thodi……… ye bola ki litte karti little me 1% bhi aata, reply pe 1% bhi aata ye thodi ki 100% hi hojayega prrrr i miss you swati and unblock kardo
+
+Chalo Goodnight cutie
+Take care 😚
+Love you
+
+<p>Vishal Ror to Swatuuuuuu</p>
+15/infinity</p>
+        </div>
+
+<!-- Letter 15 -->
+        <button class="accordion">Letter 15: Ye 15th letter</button>
+        <div class="panel">
+            <p>Helloooo cutieeeee ye 15th letter is hafte ka, vaise maine pichle letter me bhi 15th letter likh diya tha aapne dhyaan ni diya maine bhi socha tha vo 15th par vo 14th tha main ab ye bhejraha tha toh maine notice kiya ki 14th letter toh hai hi ni fir isko 16th se 15th likha, pichla lettet toh friday ko hi bhej diya tha raat ko toh ye wala saturday ko bhej raha raat ko, vo wala isliye vaise toh bataya tha ki goodnight bolne ko and isliye bhi ki kabhi kabhi late notifications bhi jaati toh kahin 12 baje bheju toh vo notification sone ke baad hi and fir subah subah neend me miss, maine vaise 1 ya max 1.5 din hi socha tha ki msg karti ho ya ni dekhne koo verna main kardeta par aapne kar hi diya msg matlab atleast 1% tohh hai pyaar khair aap maanogi nahi par msg toh msg hotaa verna aise toh whatsapp ke alawa baaki jagah kar hi sakteeee the naaa baat, jab raat ko kiya tha jo delete vo maine late night dekha tha raat ke 2-3 baje because charging pe laga tha phone tab maine socha isko kal point out Karungaa abhi toh sogayi hogi par subah dobara hi kardiyaaa wewwwww, Aapnee ye wali chiz dobara bolnee ko mana kari thi par same way whatsapp pe mana kari thi naa par ye toh letter hai yahan toh bol hi saktaaa huu toh gussaa mat honaa cutie…..
+Aurrr vo uske liye sorry vo usdin bj related jo bolaa tha sorry vo merko laga tha ki aise bola par galat interpret kiya hoga kuch ya fir memory thodi upar niche hogayi hogi and usko kisi aur chiz se link karliya hoga par aapko ni lagta uski punishment me 2 mahine tak gandi baatein karnaaa thodaa jyada ni hogaya matlab 20 din karlooo usko 2 mahine toh jyada hai na, kabhi kabhi mood vaisaa hota ya man kar jaataa naa tohh kisse karu vaisi baatein🥺.
+Kal raat toh main sogaya tha vo sayad isliye ki parso soya ni and fir kal aake body si bhi dukhri thi toh bas aake direct so hi gaya subah ke 10 baje tak, aap ki tabiyat kaisi hai ab cutie jhukaam etc dawai lelo and vo videos complete karlo padhai ki jo bheji fir new bhejdunga jaldi se chaloooo byeee take care
+
+<p>Vishal Ror to Swatuuuuuu</p>
+
+15/infinity</p>
+        </div>
+
+<!-- Letter 16 -->
+        <button class="accordion">Letter 16: Ye 16th letter, ye bhi thoda special tha</button>
+        <div class="panel">
+            <p>Ye 16th letter, isko pdhke bhul jana kya likha hai ye mention mat karna cringe……..Pata ni aise hi raat ko man kiya likhne ka kuch vaise toh batane ka kiya tha par abhi tog 2 bj rahe aur sorahi hogi aap gusse ya headache me par sorry maine goodnight ni bola tab mera kaafi mood kharab tha kyunki merko kaafi saari baatein karni thi aaj save kar rakhi thi par sirf kiss Word pr itna kuch merko idea ni tha verna nhi bolta main sorry, aage wala part extremely cringe hone wala and sayad aap kabhi padho bhi na ye because main subah delete kardunga par incase delete na kiya and aap padhrahi toh bata diya ki cringe extremely par true hai…. Swati i really love you aur ye baat merko kaise realise hui ye batata, 1 toh vohi bata rakha ki january me jab merko laga ki end hone wala type toh kaafi roya and tabiyat kharab tab realise hui thi ye chiz toh bata rakhi par dusri main soch raha tha 1 time par ki kabhi aisi situation ho jahan aisa ho ki mere pass chance ho aapki life save karke khud ded toh kya karunga and ye chiz maine mansi, ya bachpan me tarun related bhi soch rakhi…. Pehle unke answer bata deta mansi related toh aaya tha ki naa worth it ni hai thodi selfishness si aagayi thi, tarun related bhi socha usme aisa tha ki 60:40 sayad dedu par 1 baar aisa thought aayega ki na du etc and 100% toh sirf parents wale me hi aaya hai par jab maine aapka socha october me tab nahi tha par feb me sochi maine same chiz tab aisa tha ki bina soche 101% har baar dedunga aur main ye sirf bolne ke liye bolraha par cringe/sharam aari english me likh deta par i cant live in a world in which tamatar dont exist so I’ll prefer the other one 101/100 times, bas yehi kehna tha idk kahunga bhi ya nahi and kaise send message me toh mushkil hai sharam aati merko, sayad letter me bhejdu jahan kehte hue saamne face na karna pade ya fir delete hi
+
+
+Bhul jao jo bhi padha, chalo take care
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+16/infinity
+
+</p>
+        </div>
+
+<!-- Letter 17 -->
+        <button class="accordion">Letter 17: Ye 17th letter</button>
+        <div class="panel">
+            <p>Hellooooooo ye 17th letter is letter me toh around 10 dino ka gap ho gaya because aapne vo 16th wala letter jo maine likha tha vo pehle hi leliya tha kaafi jaldi hi tohh isme gap aagaya anyways kaisiii hooo ye main 3 ya 4 ko dunga, Kal ya parso toh aapko rajpura jaana hoga clinical posting ke liye 25 dino ke liye par dhyaan rakhna apna…..ye hafte toh mere bhi exams the and aapne vo shart bhi ki 6hr padhna 6 dino ke liye, abhi tak toh kar raha hu follow and even jyada hi padh raha and mere khayal se kar lunga pure month ke liye hi although iske return me jo tha vo toh most probably cancelled hai but still main apne taraf ka challenge complete karunga irrespective of that and vo c and b word wala and vo raat ke 12 baje ke baad sone se na rokne wala bhi
+vaise ab toh merko vo shart type ke liye padhna hai ki merko is sem me 45+ and next sem me top par 2 subject me toh aajayenge 45+ par baaki 3 me nahi aayenge kyunki vo teachers kisiko ni dete itne marks, ye 2 teacher dedete par vo 40+ hi denge including ye wali jisme abhi last minor me apka pen because merko kuch bhi samajh nahi aaraha tha par iske major me bhi main 40+ le hi aaunga jitne maximum possible ho sakte matlab class me top par 45+ ye degi ni.... but 50 marks ke paper me 50 ka hi proper attempt karke aaunga aisa koi question ni hoga jo merko aata ni ho yehi kar sakta hu na maximum apni taraf se ki class me highest le aau and pura paper aata ho ab koi marks na de toh usme kya kar sakta mainnn and iske alawa next sem me toh merko top karna hi hai and january tak weight bhi 62+ fir aap meri girlfriend and haan CDS bhi toh clear karna hai vo bhi karlunga ji khair vo toh alag hai is wali baat se, aapne uspe bola tha ki nahi hua fir dekhna type par agar karliya maine toh fir aapko karna padega kuchhh maybe vohi chiz jo abhi mana kar rakhi hai and vo bhi 80-90% contribution ke saath 1 baari ke liye 🍅 not sure maybe kuch aur but filhal toh yehi socha hai vaise cds tak toh humein 1 saal hojayega kyunki 1 september ko hi hai CDS wewwwwww and abhi 8 months bhi hogaye, starting ke 4 months toh aisa tha ki time ruka sa pada tha aisa lagta tha 2 saal ke barabar chat karli par mahine sirf 2 hi hue ab vapis se garmiyan aagayi and thode time me august fir aapka real wala birthday uspe bhi karnaa padega kuch.
+
+chalooooo ........... take care goodnight abhi ni baad me love youuuuu tamatar
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+17/infinity</p>
+        </div>
+
+<!-- Letter 18 -->
+        <button class="accordion">Letter 18: Ye 18th letter</button>
+        <div class="panel">
+            <p>hellooooooo tamatar ye 18th letter wewwwww 18 toh aapka birthday bhi hota, kaiisiii hoooo, aaj aapko 1 hafta hojayega chandigarh gaye hue and 2.5hafte moree left fir vapas gharpe. ye haftaaa tohhh achaaa tha except for first 2 days jahan ladayi par maafi un dono din rude honeee ke liye, vaise abhi toh raat ke 1 baje hai and aap so chuki ho jab main ye letter likhraha prrrrrr aise naraaaz mat ya man dukhii mat kiyaaa karoooo itni si baat ke liye merkoo acha ni lagtaa, aap vo insta toh aise hi lelo bina kuch kiye and nahi chhaiye merkoo kuch extra etc bhi bass man mat udaas kiyaaa karoo acha ni lagta aise bekaar man me hi sogayi bina goodnight bole and sorryyyy sorryyyyy sorrryyyyyy kyuunkii maano ya mat maanoo par mood toh meri harkaton se hi kharaaab hua hai….
+
+Kal ka din toh achaa tha sirf last ka 1hr choddke baaki sab toh badiyaa wewwwwww, 4;30hr phone pe baat jo ki pehle 4hr sochi thi fir 4;30 hogayi and usme se bhi 1:30 se 2hr vaisi baatein, merko vaisi baat karte hue kaafi sharam type aarahi thi start me par fir thik hogaya 30 min baad chali gayi sharam matlab he chizein bolte hue alag saa lagta kyunki phone pe hi toh aamne saamne thodi and cringe saa ki ye kya boldiya jaise kal process ke time jab kisses ka bolraha thaaa tab phone pe kari thi sayad sunayi bhi di ho tab kaafi jyada cringe and sharam type ki matlab ye kyaa par fir baad me vo bhi normal hogaya and chali gayi lagbhag sab sharam ab vaapis aisi baat karni ho toh jyada easily kar sakta aise bas aaspaas koi ho na jo meri awaaz sun sake except you.
+
+Uske baad fir raat ko 24min phone pe proper baat wewwwwww main toh 1 min me bhi khush hojata par wewwwwwwww main chatt pe ye sochke gaya tha ki aap 1 min me cut kardogi but main 3-4 minute tak lejane ki try karunga jabardasti par actual me koi jabardasti ya effort ni daalne pade na kuch ajeeb sa bas start ki 1 min aapki awaaz sun ke heartbeat tez hogayi thi jaise jab first time recharge ke time aapki hello suni thi tab hua tha uske baad normal hogaya and aisaaa laga ki jaiseee matlab kya batau 24 min 2-4 min je barabar lagi and main agar niche hota toh 4hr bhi aapse baat kar sakta aise bina 1 baar bhi ye feel aaye ki koi baat ni hai karne ko and jaise jab we met movie me vo ladki ni hai vaisi vibe aayi aapse baat karke ki aapse ghanto tak baat kar sakta bina thoda sa bhi bore hue and vibe si match hogayi jaise baat karte hue par aapko dekhke lagraha tha aap merse jyada comfortable hoo and meri heartbeat tez hui padi thi aapse baat karte hue toh replies na aarahe the and low voice me kabhi baat na kari toh usse bhi thoda si problem aarahi thi par fir baarish aagayi usme bhi 5 min baat kari although aapko ni bataya ki 5 min se baarish start hui padi and last me hi bataya bas ki ab baarish aarahi toh main niche jaaraha
+
+Chalooooo take care cutie 😚
+Love you
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+18/infinity</p>
+        </div>
+
+<!-- Letter 19 -->
+        <button class="accordion">Letter 19: Ye 19th letter, ye bhi special tha</button>
+        <div class="panel">
+            <p>19th letter
+Feelings aarahi jor ki andar se
+Swati ye chiz maine batayi ni kabhi but aaj bata deta kyunki aarahi idk bataunga kab par main isko likh toh 12 may raat ke 02:03AM pe raha idk aapko kab bataunga maybe kal ya fir kuch months baad
+
+Main sochraha tha and sad tha ki agar kabhi 1 aisa din aaye jab aap merko chodd ke chali jao then main kya karunga and kya hi matlab idk i cant even think and dont want to think kyunki ye chiz october se start hoti jab main aapko like karne laga tha tab mere paas option tha ki isko like tak hi rakhu and thoda more but free nahi karunga apne aap ko matlab thoda limit but maine aapke case me apne aap ko 100% free chodd diya tha, apne aap ko matlab apni feelings ko apne dil ko ki ja hoja jitna attach hona hai ya karle jitna pyaar karna bilkul 0% roka and I’m all in on you……all in matlab all in 1% bhi nahi roka maine aapko and apni feelings ko isliye maine aapse aisi aisi cheezein bhi share kari hai and exact apni feelings bhi share kari hai Jo main kisi therapist ko bhi share na karu ki merko exaxt kaisa feel hora par aapko kiya hai maine, you know all my darkest secrets and everything about me pura andar se ki how i think and how i feel ye sab isliye hi ki aap pe all in…….October se hi hai ye sab and like toh maine pehle bhi kisiko kiya hai mansi par main uspe kaafi controlled tha apne heart ko leke matlab full type se free nahi tha and na maine usko 5 lines se jyada ka paragraph likha and i used to think koi kyu hi likhta hai itna but now here i am, na itna all in main kabhi tarun ke saath friendship me bhi but aapke saath idk why maine aisa hone diya but ab toh ho chuka and koi u-turn ni hai……
+
+Main aapse itna pyaar kar chuka hu ya karta hu jitna maine kisi se na kiya na kisi aur se kar sakta future me jitna aapse and dil ko free chhodne ka ya all in hone ka reason ye tha ki merko october start around me vibes aayi thi ki yes thats it this is the girl who is just perfect matlab sapne type ki ladki and ispe bas vibe aayi thi haan iske liye main all in ho sakta hu because she is 100000001% worth it and isse better na koi hai na maine sochi thi, and aap pe merko khud ki feelings ko control ni karna because feelings control karne se sayad aisa hojaye ki sayad main aapko jaane se rok na pau but merko rokna hai Kind of chahe cringe hota ho ya kuch bhi par jo hai vo hai
+
+Ye padhke guilt me mat chali jaana ki aap pe main all in type and incase hum alag toh main kya karunga type but dont worry i wont die etc or any stupid thing haan bas bohot hi jyaada extreme bura phase aayega par vo hojayega handle and worth it hoga as i said and vaise toh kuch aisa aayega hi nahi because main puri try karunga ki we dont seperate ever and UPSC ke liye bhi full efforts 101 chahe jo marzi karna pade I’ll do it.
+Byeeeee take careee
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+19/infinity</p>
+        </div>
+
+<!-- Letter 20 -->
+        <button class="accordion">Letter 20: Ye 20th letter, ye relationship ke baad ka pehla letter</button>
+        <div class="panel">
+            <p>Hellllloooooo meri cutieeeeeee ye 20th letter and and and ab hum aa hi gayee relationship me wewwwwww itna lambaa time wait wewwwww par aa gayeee and ab toh 12-13 din bhi ho gayeee merkooo laga tha maybe aap 1hr baad hi ya 1 din me hi cancel kardoooo ki nahii prrrrrrr chal rahaa sahii although aap ko hogayaa tha ajeeb saa first 1hr me par hogayaa vo manage and finally aa gaya vo dinn ab tohh bas merko upsc karni hai fir direct girlfriend se wife although main toh aapko pehle se wifuuuu maanta hu but fir confirmm saaa and dono side see, vaise ab agar hum vapis friendship me jaye relationship see toh thodaa tough sa hogaaa because pehle se bohot jyaada sa frank hogaye, har baar aisa hi lagta hai ki isse jyada kya frank ho sakte isse jyada kya frank ho sakte par aur hote chale gaye, ye toh november se hi lagtaa aaraha ki bass isse jyada frank not possible but fir new chizein and ab last 12 dino me jitnaa frank vo toh unmatched chahe pic etc ya fir videos aapki taraf se kisi chiz ki press etcc yaa firrr haanfne ki awaazeinn yaa mera house number 34 etccc……. Vaise aap pehle jab bolti thi naa ki isse jyada frank ni tab merkoo jo idea tha ki isse jyada frank kya usme yehi tha ki main kuchh jyaada frank and aap thodaa restrict karti and thodaa sa kam jaiseee Khudse participate nahi kartiii thi utnaaa kuch months pehlee tak yaa fir aisaa hi kuch prrrrrrr prrrrrrr prrrrrrr ab tohhh dono hi barabar se besharam hogayeee and binaa kisi hesitation typee ke kuchh bhi baatein kar sakteee the pehle aap apna naam use karnee se mana kartiii thi ya us time sirf prrrrr prrrr bolti thi par ab tohh dono sidee se barabar saaa..
+Ab tohhh mere exams khatam hogayeee and isse achee exams na gaye mere abhi tak college me thanksss to yourr daant and pen also ab aap bhi vapis delhi aagayi hogi and main bhi karnal aagaya ab bhejna merkooo apne chapters main aapko videos bhejta hu fir dono same time pe padhenge matlab aap decide karlena timing main bhi almost same time pe padh liya karunga and aapko koi topic samajh me na aaye toh main samjha dunga aapko 2-3 min me khud samajh ke fir koi easy local example se aapko explain…… vaise ab tohh aagaye relationship me par jo main bata raha tha naaa ki bday pe kuch toh karnaa hai par decide ni haan vo decide toh nahi hai par karna jarur hai kuch usme se 1 chiz ye sochi thi maine ki aapko kaafi special tareeke se kuch wish and propose karu ki banjaooo na gf, ye main phone pr hi karta aise bina permission ke kuch aisi chiz na karta jo aapko pasand ni jaise physically ni but phone pe hi propose…..par ispe main vaise sure nahi tha kyunki incase aapko nahi banna hota tab gf par aapko fir bura lagta ki aapko mana karna pad raha and aapka bday bekaar sa hojata wish se toh ye wala vaiseee bhi confirm na thaaa par ab toh ho meri cutieeeeeee si girlfriend tohh ab toh kuchh aur special karnaa padega sochke etc 😚
+
+Meraaa har timee hi man kartaa rehta ki aapkooo boltaaa rahuuuu ki Meriiii cutieeeeeee Meriiii tamatar meriii baby merii darling meri sweetheart meri jaaan
+
+Par thoda control karta and kam bolta ki kahin baar baar sunke aap irritate na hojaoo….
+Yee tohh apni relationship ka pehlaa letter vaise toh dusra hai par pehle wala jab bheja tha tab merkooo ye nahi pata thaaa ki hum relationship me aagaye ya aajayengeee
+
+
+Chaloooo byeeeee goodnight/morning/evening meri babyyyyy 🍅
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+20/infinity</p>
+        </div>
+
+<!-- Letter 21 -->
+        <button class="accordion">Letter 21: Ye 21st letter</button>
+        <div class="panel">
+            <p>helloooo babyyy ye rahaa 21st letter and 21 ko hindi me kyaa kehte aap vo emoji kab bhej rahi merkoo ab tohh letter me bhi cutieeee ke saath saath babyy bol saktaa hu apni tamatar koo wewwwww par ye wala hafta tohh kaafi badiyaa thaa since aap wapis aagayi delhi and itni badiyaa relationship chalrahi hamari, ye haftee tohh na koi serious ladayi hui i guess vaise serious ladayi toh hamari vaise bhi kabhi na hoti saari hi kuch hours me solve kyunkii aap itni cutiee jo ho prrrrr delhi aake vapis se sab kuch kitnaa badiya hojata although chandigarh me 1 chiz badiya thi ki aapki pyaari si awaaz sunne ko miljati and haanfne wali awaaz sunee bhi kaafi din se hogayee par aap un sab ki kami mehsus ni honee deti uskii jagah kuchhh aur bhejti rehtii tshirt shorts mee prrrrrr aapko ni lagta aap kuchh jyada hi tease karti daya ni aati aapko aisee control chale jaane deti meraa tease karkee kaafi jyada hi horny kardeti joo pure time rehti firr abhi ye likhte hue bhi mere saaamne aapki vo pics and videos hi aarahii prrrr prrrrr prrrrrr ab tohh june aagaya ab tohh padhnaa start and aapko bhi padhaane me kaafi maja aata merkoo call pe chandigarh jaake yaad karlena merkoo kabhi bhi koi bhi topic ya chapter samajhna ho main 1hr me padhke aapko samjha dunga ache tareeke se jab aap chaho chandigarh me aurr merkoo bhi upsc and cds ka dekhnaa kartaa hu start vaisee toh easy hi haiii par ab tohh upsc karni must hai kyunkiii aapne 2 badi badi motivation dedi merkooo jo pehleee na thiii ki main kyaa miss karunga incase upsc na hui toh ab tohh karni hi padegi, internship jo karne jaraha vo tohh aise hi time waste hai 2hr ka vahan jaake phone hi chalana hai baaki time free free tohh sharmana mat mersee koi topic ya chapter samajhne me because i like it and refresh sa hojata aapke saath time spend bhi and aapki padhai bhi side by side prrrrr roommate na hota and thodi garmi kam hoti tohh jyaada maje aate anyways, abhii tohh merko ye hi na pata ki kal new ticket karwani hai ya fir meri purani confirm hojayegi, hojaye toh sahi hai vernaa fir garmi me jaana padega par thodaa aisa bhi lagraha ki last 2nd ya last 3rd baar is wale ghar se jaraha railway station uske baad toh fir sayad nahi hi yahan se idk prrrrr 9 months hogaye humein and 20 din relationship ko, merko laga tha kuch hr baad hi relationship end verna fir lambi chalegi par nahi hui toh matlab ab lambi ab aapko 2nd se 3rd phase me leke aana hai jisme time lagega prrrrrr 1 day....
+chaloooo byee kaisiii ho cutieeee lovee youu 🍅
+
+<p>Vishal Ror to Swatuuuuu</p>
+21/infinity</p>
+        </div>
+
+<!-- Letter 22 -->
+        <button class="accordion">Letter 22: Ye 22nd letter</button>
+        <div class="panel">
+            <p>helloooo baby ye raha 22nd letter is week ka and next letter tak toh hamari relationship ko bhi 1 month se upar hojayega wewwwww dekhaa maine bola tha na ki itnaa mat daroo hum hi tohh aarahe hai relationship me and sahi chalega kya hi kharab hoga par aap dar rahi thi itne time se relationship se par dekhooo kitna sahi chalraha 1 month hogaya pata bhi na chala aise hi 1 saal chala jayega fir 10 saal fir 60 saal aur pata bhi nahi chalega vaise relationship me aane ke baad toh hamari ladayi etc bhi kam hone lagi hai sirf 1-2 baar hui vo bhi aapke delhi aane se pehle ladko etc topic pe uske baad delhi me toh nahi hi hui i guess pichle 2 hafto se prrrrrrr wewwwwww and aapko sayad aisa bhi lagta tha ki relationship me aane ke baad ladko ke side se efforts kam type hojate ya utni excitement ya vo ni kyunki ab toh milgaya jo chahiye tha par dekhooo kahan kam hue and increase hi hua hai pyaar and care, haan agar january me ya pehle aati relationship me tohh aur jyaada increased dikhta because maine kuch cheezein reserve kar rakhi thi like fb insta etc ya letter bhi usi ke liye tha and aur bhi kaafi cheezein thi par fir maine ye sab cheezein bina relationship ke hi kardii becauseee mera man kiyaa ye haftee toh main chandigarh tha and sayad 1 mahine ki jagah 45 days rukna pade although not sure kyunki kya pata main aajau 1 mahine me hi ya fir 45 days agar attendance jyada jaruri hogi toh vaise sahi hai chandigarh me bhi khaali hi hu and phone pe bhi sahi baat hojati aur aap nani ke ghar chali gayi par achaa tha kaafi ye hafta par aajkal main self kaafi jyaada karne laga hu isko vapis control me leke aana hai pehle ki tarah and thankewwww merkoo daily subah subah time pe uthaane ke liye  verna main toh 1-2 baje tak sota rehta easily and daily classes miss prrrrr merkoo naa aapki awaaz ki yaad aati aapki awaaz sunne ka man sunaa doo record karkee vaisee sunaogi nahi par fir bhi i can try 😚 ye wala letter main try karunga purane wale time pe hi 12:05am wale bich me is time pe bhejna band kardiya tha because aap jaldi sojati thi toh fir next day hi par aaj merkoo lagta 12 baje ke baad hi soyogi toh aaj bhej sakta hu 12:05 pe and aapki tabiyat kaisii hai cutieeee pet dard ya sar dard etc rest karoooo
+
+chalooooo byeeee meri babyyyy
+
+<p>Vishal Ror to Swatuuuuuu</p>
+
+22/infinity</p>
+        </div>
+
+<!-- Letter 23 -->
+        <button class="accordion">Letter 23: Ye 23rd letter, ye aakhri letter tha jo send kiya tha yahan laga tha end hogaya permanently but as usual hum lad kar hojate hai saath 1 din me</button>
+        <div class="panel">
+            <p>hello ye 23rd letter and sayad last letter bhi although maine socha ni tha aisa kuch hoga but kya kar sakte you made your choice ab aapki life hai main koi ni lagta usko control karne wala ya aapko kehne wala ki isse baat karo and isse mat karo aapka jo man kare vo karo bas khush rehna hamesha and rona mat aur kabhi kuch kaam etc ho toh kar sakti ho msg ill help you and i dont hate you i still and will love you bohot jyaada because aapse achi caring baat sunne wali and matlab ekdum perfect itni perfect ki jab bhi maine ye try kiya ki aap se attach na hou ya aapko like na karu ya aapse pyaar na karu main har time fail hogaya because aap ho hi aisi cutie ki maine socha agar main apne aap ko rokunga ya control karunga toh sayad unfair hoga khud ke liye bhi ki kahin aisa na hojaye aap chali jao and main aisi ladki ko kho du jisse perfect maine imagine tak na ki thi toh fir maine apne aap ko control karna chhod diya tha and pura invest hogaya tha aap me matlab pura attach bilkul try na kari ki control karu apne aap ko thoda kam attach hone se kyunki agar main control karta toh utna freely express na kar pata jitna kiya maine and na hi kuch bhi cheezein jo ki haan risk tha ki work nahi kiya toh kaafi bekaar but tha ki hojayega work and upsc and agar na bhi hua toh koi baat ni fir bhi overall worth it hi hoga and dobara merko chance mila 31 august ko raat 11:08 pe jaane ke liye toh main still sab chiz same hi karunga vapis se same attach bina control kiye even though knowing ki how it will end because of the journey and the experience that will make it worth definitely vo 4-5 baje tak baatein ya fir gussa hone pe manana etc etc ye jo bhi hamara time tha saath me 9 months and 14 days ke liye isse ache 9.5months meri life ke na rahe honge koi and na kabhi aa sakte kisi aur ke saath kabhi bhi so thankewwwww for that and jyaada stress mat lena mere baare me sochke ki kya kaise main karlunga khud ko handle jaise bhi hojayega kuch toh and aap khud ka bhi dhyaan rakhna kyunki aap show karti ho ki aapko utna farak ni padta par aapko bhi padta hai i know so khayaal rakhna apna tamatar(not meri but still you are tamatar) khana khaati rehna time pe and padhai me kahin bhi help chahiye ya aur kahin bhi toh bata sakti ho merko i will be there forever, likhna toh aur bhi kaafi kuch tha puri ki puri book hi par filhal mind ni chalra so yahin tak rakhta hu is letter ko....... chaloooo jo bhi tha jahan tak bhi tha bas perfect tha.
+goodbyee apna dhyaan rakhna and goodnight cutieeeee, i love you🌹
+
+<p>Vishal Ror to Swatuuuuuu</p>
+
+23.</p>
+        </div>
+
+<!-- Letter 24 -->
+        <button class="accordion">Letter 24: Ye 24th letter</button>
+        <div class="panel">
+            <p>Helloooo meri babyyy ye 24th letter vaise 23rd letter last letter type tha and last letter hone wala tha par dono ko hi andar se pata tha ki vo last letter nahi hi hoga and aise end nahi hoga par hope so uske baad se aapne mere letter toh nahin delete kardiye naa vaise show toh karri thi aap ki aapne delete kardiye par merko kahin na kahin lagtaa ki rakhe hue hai aapne and permanent delete nahi kiye tabhi aap 2 din pehle puch rahi thi ki koi tareeka toh ni jisse aapka bhai aapki email khol le matlab hai sayad vahan letters verna kyuu itna sochti agar email khol bhi letaaaa Prrrrrr Prrrrrr Prrrrrr ye hafta toh badiya tha bas vo last friday night ke alawa baaki sab Acha hi tha, Aapke exam bhi aane wale sayad 20-30 days me vaise 2 hi subject hai dono half half toh prepare ho hi chuke hai toh jyada stress mat lo ki kuch ni aata fail etc aapki 7 around cgpa aa sakti abki baar fail toh pakka ni abhi sayad aapko aisa lagta hoga ki padhliye vo dono chapter par kuch bhi yaad ni hai ya kuch yaad ni aara bas padhe hai ya video dekhi par jaise jaise exam pass aayenge aapke back of mind me vo yaad aate jayenge, agar pressure ke saath sochogi ki kuch ni aata toh sochne pe kuch ni aayega bas relax raho and jo gande examples se maine padhaya hai exam ke bich me chances hai ki topic ka name sunke usse related convo yaad aa hi jayegi baaki toh bas apne words me bana ke kuch bhi likhna and jo memorising ka kaam hai usko 4 baar write karo apne aap yaad hojayega ya fir story type banao uski bas confident raho aise sochke ki aata hai toh sab apne aap yaad aane lagega, 1 mahine me se 8 din hogayee vaise merko self kiye hue Prrrrrr subah uthke kaafi jyada hawas aajati pata ni kahan se par aajati and aapko fuck karnee ka man karta kaafi jyaadaa par aap bhaag jaati bahane maar ke not nice vaiseee kitne jyada hi besharam ya frank hogaye hum ki main aise hi randomly bol leta ki aapko fuckkk karna ya fuck karne ka man and 2 mahine pehle fuck word bolna thoda ganda sa lagta tha and iski jagah 20% ya pyaar par ab directly fuck wewwwwww... chaloooo goodnight meri tamatar baby
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+24/infinity</p>
+        </div>
+
+<!-- Letter 25 -->
+        <button class="accordion">Letter 25: Ye 25th letter</button>
+        <div class="panel">
+            <p>hellooooo meri babyyyy ye 25th letter, letters likhte hue 6 months hogaye new year se start kiya tha and ab june ka aakhri letter and ye letter toh sayad aapko abhi milega bhi nahi and aapke birthday pe dunga, ye hafta utna acha nahi gaya par in the end sab sahi ho hi gaya matlab kaafi ladayiyaan kari is hafte par as always ladayiyaan ho hi jaati hai solve aise dil pe mat lagaya karo aap ladayiyon ko ki bas aur ni horaha and breakup karnaa hai thodaa time dooo and everything will workout baaki uske alawa kya tha is hafte me is hafte main ghar nahi gaya because gharwale ghar pe nahi hai and filhal toh aapke parents bhi aapke ghar pe nahi hai fir bhi aap besharam ho call nahi kartii baaki ye letters aap 2.5 month baad padhogi toh aapko padhte padhte nostalgia bhi aajaya karega jaise ki june ke aakhri hafte me aapne ya humne kya kya kiya tha and kya chalraha tha jaiseee abhi aapko education tech wala subject lagbhag khatam hogaya and aaj maine aapko chapter 1 finish kiya baaki alreaddy ho chuke bas ab kal chapter 2 revise karwa dunga jo pehle padha rakhaa hai vaise toh and kal toh worldcup final hai mere hisaab se India jeet rahi hai and aapke hisaab se kyaa hai ki merko 15k me se paise leke satta lagana chahiye ya nahi.
+Chaloooo babyyy ye letter me bas itnaa hi ab main sotaa, aap bhi sojaoo cutie and apne andar kuch rakhna mat maaf kardena ladayiyo ke liye i love you chaloo sojaoo byee take care sweet dreams
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+25/infinity</p>
+        </div>
+
+<!-- Letter 26 -->
+        <button class="accordion">Letter 26: Ye 26th letter</button>
+        <div class="panel">
+            <p>helloooo meri babyyy ye 26th letter ye wala letter bhi nahi milega aapko abhi ke abhi and baad me hi milega par is hafte ka main kya batau aapke exams aarahe and main vapis aagaya chandigarh se karnal and kal shift karna hai ghar and aaj nani ke ghar hu and aap bhi ye hafte kaafi busy mainly because exams aarahe toh padh rahi baaki aapka cousin bhi aaya hua toh vahan bhi busy and baaki is hafte thodi kam baat hi hui baaki time main bas apne room me leta hua tha and padh raha tha ya fir movie series etc dekhraha tha and ab 2 din baad aap jayogi apne exams dene toh fir and mujhe pata tha jis time main ye likh raha hounga usi time aapka msg aayega and abhi aagaya 3 msg aaye hai padh toh ni sakta kya hai par last wale me so jana likha, abhi padhunga toh ye letter ka msg send ni kiya maine personal chat me vo send karna padega pehle verna upar ka likha hua gayab hojayega toh aapko 2-4 min baad reply milega toh uska reason ye hai ki main letter likh raha hu, fir abhi main kal flat me and parso tarun prince etc ke saath ghumne sayad uska bhi fix nahi hai cancel karne ki aadat hai usko last me abhi bhi bolraha tha ki kya karna hai baad me chandigarh me mil lenge abhi rehne dete toh pata ni parso ka par fir 9 ko aap jayogi and fir 2 exam 15 ko khatam uske baad sayad aap free hojayogi and 3 faltu ke exam hai sayad par vo toh faltu usme toh free hi rahogi mainly and sayad 25 july tak wapis aajao delhi gharpe fir aapka 6th sem shuru par aa toh aapka bday bhi raha hai uska bhi karnaa hai kuch toh chaloooo take care happy bday meri cutieeeee/baby byee love you
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+26/infinity</p>
+        </div>
+
+<!-- Letter 27 -->
+        <button class="accordion">Letter 27: Ye 27th letter, ye toh already bhejdiya tha whatsapp pe</button>
+        <div class="panel">
+            <p>Helloooo baby aaj jo aapne baat batayi obvious hai uspe bura toh lagega hi ki kisi aur ka haath pakad ke and ye ki jis chiz pe maine trust and vishwas ki u wont do that but aapko yaad nahi tha, so bekaar toh lagega par utna bekaar ni merko isse jyada bura ispe laga ki call na ki although misunderstanding thi ki aap text ki baat karri thi and main 3:30hr se call ka sochke baitha tha and fir bekaar laga ki u didn’t meant call while main call ka wait karra tha 
+
+Haath wali chiz vaise aisi thi ki bohot bura lag sakta tha ki kuch din reply tak hi na karu itna par jis tarah se aapne bataya khud se hi bina puche trust karke and without hide karke toh merko acha laga vo and reaction bhi acha tha ki aap maan ri thi aapki galti ki aapko yaad ni tha ki 2 din pehle aapne bola tha but yaad ni tha vo and pata lag raha tha u meant it agar uski jagah aisa attitude rehta ki main toh aisi hi hu meri marzi meri life vo bohot bekaar hota and usme vo lifetime reh jata fir andar ki ye chiz karne ke baad bhi aisa attitude 
+
+Abhi currently merko abhi bhi aap pe 100% trust hai hi and maaf kardiya nahi hai andar se kuch bas ye expect karta ki next time mat karna kuch aisa and thanks for trusting ki share and future me bhi har chiz share karna, agar aapke intentions galat na honge and aap ache se kuch bhi share karogi toh i will understand surely and nahi gussa hounga long time ke liye, haan maybe 5-10 min ke liye hojau but utna toh banta hai mera bhi bas kabhi bhi ye mat sochna ki hide karlu and merko batayogi toh main naraz ye mat sochna kyunki agar khud se ache man se batayogi toh I’ll 100% forgive u but agar kabhi kuch aisa pata chala ki aapne jaan bujhke hide kiya merse toh fir permanent trust issues hojayenge and permanent hurt and aap sochogi ki kuch hide karogi toh merko pata kaise chal sakta vo aise sakta ki maybe kahin serious ladayi hui ho tab aapka man kare merko aur hurt karne ka tab aap batado ki ye chiz bbi bata du ya fir maybe kisi aur tareeke se pata chal jaye toh bas intentionally mat hide karna kabhi kuch 
+
+I trust you 100% and aisi koi cheezein share karne se trust na jayega bas kabhi bhi kisi aur ladke ke saath vaisi dosti mat banana ki vo apni cheezein share karra and aap apni karri and dono me se koi 1 bhi emotional support leraha bas aisi chiz mat karna kabhi bhi and aap khud se na bhi karogi but koi ladka khud se msg karna start kare regularly and cheezein share karna start kare toh usse thoda distance bana lena ya dry replies dena ya jo bhi aapko thik lage handle karne ko and thodi bohot jo restrictions lagata main vo trust issues se nahi lagata vo bas merko lagta ki ye chiz karne se ye chiz ki possibility hai jisse main uncomfortable hu</p>
+        </div>
+
+
+<!-- Letter 28 -->
+        <button class="accordion">Letter 28: Ye 28th letter</button>
+        <div class="panel">
+            <p>helloooo meri baby ye 28th letter hai and ye week thoda acha gaya aap is week apne ghar pe ho and koi ladayi bhi na hui is hafte jabki isse pehle wale hafte me toh kaafi saari ladayiyaan thi and jhagde jhagde bas after that trip and that punishment etc ka and abhi sayad aap 1 hafta aur ho delhi me toh jyada time saath me reh sakte and ab toh hum paas aate jarahe 1 saal hone ko vapis se same weather aaraha and everything same vibes etc, ye week mera college start hua and maine socha tha tarun ke flat pe rehne ka par fir nahi gaya and cancelled the plan reasons toh aapko pata hi hai and abhi 1 mahina hai cds me and 5th sem start and aapke bday ka bhi karna hai merko vo already soch rakha hai kya karna par execute karna hai vo sabse jyada jaruri hai matlab execution and your birthday and sayad ye letter bhi aap birthday pe hi padh rahi hogi apne, ye hafta toh main daba ke ice creams khaye jaraha tha and aap bhi dabake soye jarahi thi kumbhkaran par itni pyaar se puchti ho sojau toh kya hi mana karu aapko although mera man bohot karta hai past ki tarah 4am convos karne ka prrrrr prrrrrr prrrrrrr humko toh 1 saal hone wala bas ab next target hai ki relationship ko 1 saal hojaye fir next target 5 saal fir 10 fir 50, i think 50 saal kaafi hoga tabtak age 71 and usse jyada jinda reh ke kya hi karenge fir baaki ke saal next janam ke liye chodd dete toh jyada tang ni karunga aapko bas 50 saal jhel lo jyaada ni hai thoda sa bas and 50 saal me 50L dhudh aur vanilla bhi maan loo, 50L thoda jyada hogaya sayad 5L maanlo
+chalooo cutie abhi raat ke 3:47 horahe main sojataaa ye letter me itnaa hi and i love you tamatar
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+28/infinity</p>
+        </div>
+
+
+<!-- Letter 29 -->
+        <button class="accordion">Letter 29: Ye 29th letter</button>
+        <div class="panel">
+            <p>Helloooo cutieeeeeee ye 29th letter ye main friday ko nahi likh raha par 1-2 din baad aapke vapis posting se 1 hafta pehle aaj ki ending matlab goodnight toh bekaar thi so sorry uske liye aaj aapka sar dard horaha tha and maine realise ni kiya jyada vo time pe and maine aapko irritate kar diya tha fir aapka mood kharab then u tried to fix things and come back but again i ruined where i thought i was right and you thought you was right but actually you was right and serious and you irritated and your mood got ruined because of me I’m sorry and aaj maine goodnight ni bola aapko ab iska reason main abhi explain karunga aapko and ab pata chalega, next day toh nahi bata sakta kyunki vo explain ni hoga par abhi kardeta maine socha tha ki goodnight abhi bol ke kya fayda aap toh Sogayi already since aapne upar wale msg ka reply na kiya toh sogayi toh fir maine socha ki jab main sounga tab Boldunga goodnigjt baad me kyunki react toh milna nahi ab par fir baad me kya hua ki subah ke 4 baj gaye and main soya nahi jabki merko jaldi sona tha par soya nahi toh maine socha ki ab goodnight bolunga toh aapko pata chal jayega ki ye besharam 4-5 baje tak soya nahi toh fir aap is chiz me mere baare me sochogi ki ye soya nahi toh subah subah iski neend kharab nahi karti par main chahta huu aap meri neend kharab karo baar baar kharab karo karti raho har time merkooo bohot acha lagtaa ye and aap pe pyaar aata par aap mummy ki tarah sochti ki isko sone deti and neend kharab ni, toh main ye nahi batana chahta tha aaj ki 4 baje ke baad soya fir aap meri neend kharab na karogi and doubt me rahogi ki kya pata kab soya then maybe aap meri neend kharab karlo that i like isliye goodnight ni bolaa maine and aaj raat ko maine kaafi important kaam kiya kaafi acha kaam padhai ki pehle tohhh wewwwww fir maine 1-2hr ye website pe kaam kiya jisme sayad aap ye letter padh rahi hogi abhi ispe hi kaam kiya 1-2hr fir ab main ye sone se pehle letter likh raha hu apni cutie ke liye……
+Chalooo ab sorahaaa baby i hope ki aap subah meri neend kharab karo although maybe gussa hogi toh kya pata na kharab karoo par I’m sorryyyyy
+Chalooo goodnight meri baby 
+Take care 😚
+Love you 🌹
+Huggg
+
+<p>Vishal Ror to Swatuuuuu</p>
+
+29/infinity</p>
+        </div>
+
+
+<!-- Letter 30 -->
+        <button class="accordion">Letter 30: Ye 30th letter</button>
+        <div class="panel">
+            <p>Helloooooo meri baby ye 30th letter i know bich me kuch letters miss hogaye uska reason ye tha ki cds time main bimaar tha and uske next week fir ye free time me website ka dekh raha tha aapke birthday ke liye and ye sociology ki book + minor ki taiyyari toh letter reh gaya usme and ye bhi laga tha bich me ki bday ke baad se regular letter send karunga usme maja bhi aayega ki har hafte bhej raha abhi isme aisa hai ki sirf main likhe jaraha par aap kab padhogi kaafi late par fir merko laga ki aap birthday pe letters bhi expect kar hi rahi thi toh vo kyu roku likh hi deta hu although maine half letters ka content website me jo kahani likhi hai aap pe usi me likh diya hai ki kaisa feel etc etc par letters toh alag hai naa tohh isme kaise reh sakta isme bhi toh likhna hai kuch, abhi toh bas aapka birthday aane wala 1.5 hafte me, 1.5 hafta bhi nahi 1 hafte me hi ya sayad 6 din hi aaj toh hamari 4th month anniversary thi tohh happy anniversary babyyyy par aaj aap jayogi bhi toh ye thodi bekar chiz hai par koi na kaam toh karna hi hota hai par i hope u wont be busy at 12am on your birthday nikaal lenaa thoda sa time meri wish padhne ke liye and mere bhi papers aa rahe toh ab main bhi padhai karra although jab tak aap ye padhogi tab tak toh papers start ho chuke honge and maybe even end bhi ho chuke ho because mera paper bhi aapke bday se start and 2 din me end par ye pure 1 mahine me i will be with you babyyy raat ko whenever u are free or bored or want to talk just msg me and I’ll be there for u or even call whenever u are free, abhi toh bas main sone hi wala tha ye letter finish karke
+
+Chaloooo goodnight meri babyy love youu 🌹 take care 😚 
+
+<p>Vishal Ror to Swatuuuuuu</p>
+
+30/infinity</p>
+        </div>
+
+
+
+
+        <!-- More letters can be added in the same way -->
+
+        <!-- Add New Letter Button -->
+        <a href="#" class="add-button">New letter soon</a>
+    </div>
+
+    <!-- Accordion Script -->
+    <script>
+        const accordions = document.querySelectorAll(".accordion");
+
+        accordions.forEach((accordion) => {
+            accordion.addEventListener("click", function() {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
